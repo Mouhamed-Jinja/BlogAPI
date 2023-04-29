@@ -1,6 +1,6 @@
 from sqlalchemy.orm import session
 from fastapi import HTTPException, status
-from app.blog import models
+from blog import models
 
 def get_all(db:session):
     blogs = db.query(models.Blog).all()

@@ -1,5 +1,5 @@
 from fastapi import APIRouter, Depends, HTTPException, status
-from app.blog import  models,token
+from blog import  models,token
 from fastapi.security import OAuth2PasswordRequestForm
 
 
