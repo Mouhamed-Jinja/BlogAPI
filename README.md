@@ -1,5 +1,5 @@
 # BlogAPI
-BlogAPI is a RESTful API that allows users to create, read, update, and delete blog posts. The API was built using Python and Flask,
+BlogAPI is a RESTful API that allows users to create, read, update, and delete blog posts. The API was built using Python and FastAPI,
 and it utilizes a PostgreSQL database to store the blog post data.
 
 The API provides a simple and intuitive interface for interacting with the blog post data.
